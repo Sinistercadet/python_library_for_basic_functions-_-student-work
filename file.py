@@ -67,11 +67,11 @@ def rf(code,endv,updation = 1,loop_runner = zv):
 	if zv < endv:      #use zv variable for loop variable
 		exec(code)
 		zv=zv+updation
-		rf(code,endv)
+		rf(code,endv) '''you can use zv variable to define other program variables like a = zv + 10'''
 	else:
 		print("Execution Successful.")
 		zv = 0
 		return 1
     
 
-rf('''print("hello")''',9) #prefer docstring for code
+#rf('''print("hello")''',9) #prefer docstring for code
