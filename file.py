@@ -74,4 +74,4 @@ def rf(code,endv,updation = 1,loop_runner = zv):
 		return 1
     
 
-#rf('''print("hello")''',9) #prefer docstring for code
+#rf('''print("hello")''',9) - sample#prefer docstring for code
